@@ -1,0 +1,20 @@
+{
+  "name": "advent-of-code-2025",
+  "version": "1.0.0",
+  "description": "Advent of Code 2025 - Help the Elves decorate the North Pole",
+  "type": "module",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "new": "tsx scripts/new-day.ts",
+    "day": "tsx",
+    "test": "node --import tsx --test src/**/*.test.ts",
+    "test:day": "node --import tsx --test"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
